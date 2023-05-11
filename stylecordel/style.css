@@ -75,23 +75,23 @@ section >p{
 }
 /* Set the image of idimagel00 background*/
 #image00{
-    background-image: url('/imagens/background001.jpg');
+    background-image: url('../imagens/background001.jpg');
     
 
 }
 /* Set the image of idimagel01 background*/
 #image01{
-    background-image: url('/imagens/background002.jpg');
+    background-image: url('../imagens/background002.jpg');
     
 }
 /* Set the image of idimagel02 background*/
 #image02{
-    background-image: url('/imagens/natureza.jpg');
+    background-image: url('../imagens/natureza.jpg');
     background-position: center;
 }
 /* Set the image of idimagel02 background*/
 #image03{
-    background-image: url('/imagens/write.jpg');
+    background-image: url('../imagens/write.jpg');
     background-position: top center;
 }
 .normal{
