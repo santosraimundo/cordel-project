@@ -1,0 +1,125 @@
+
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+:root{
+    --color00: #3a3939;
+    --color01: #030342 ;
+    /* Fonts*/
+    --font-main: Arial, Helvetica, sans-serif; 
+    --font-paragraphy:'Dancing Script', cursive;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html, body{
+    min-height: 100vh;
+    background-color: var(--color00);
+    font-family:var(--font-main);
+}
+header{
+    background-image: linear-gradient(to top, var(--color00), var(--color01));
+    background-attachment: fixed;
+    text-align: center;
+}
+header h1{
+    padding-top: 50px;
+    color: white;
+    font-variant: small-caps;
+    font-size: 2.5em;
+}
+header p{
+    padding-bottom: 50px;
+    padding-top: 5px;
+}
+header p > a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+header a:hover{
+    text-decoration: underline;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 40px;
+    
+}
+
+section >p{
+    font-family: var(--font-paragraphy);
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+.image{
+    background-color: #3a3939;
+    background-position: right center;
+    background-size: cover;
+    box-shadow: inset 1px 1px 5px  #000000a2;
+    background-attachment: fixed;
+}
+.image > p{
+    background-color: #000000dc;
+    display: inline-block;
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.5);
+    
+}
+/* Set the image of idimagel00 background*/
+#image00{
+    background-image: url('/imagens/background001.jpg');
+    
+
+}
+/* Set the image of idimagel01 background*/
+#image01{
+    background-image: url('/imagens/background002.jpg');
+    
+}
+/* Set the image of idimagel02 background*/
+#image02{
+    background-image: url('/imagens/natureza.jpg');
+    background-position: center;
+}
+/* Set the image of idimagel02 background*/
+#image03{
+    background-image: url('/imagens/write.jpg');
+    background-position: top center;
+}
+.normal{
+    background-color: white;
+
+}
+ 
+.normal >p{
+    background-color: var(--color00);
+    display: inline-block;
+    border-radius: 10px;
+    padding: 40px;
+    color: white;
+    box-shadow: 5px 5px 6px #00000080;
+}
+/*set of footer*/
+footer{
+    padding: 5px;
+    background-color: var(--color01);
+    text-align: center;
+}
+footer p, a{
+    color: white;
+    font-size: 0.8em;
+    text-decoration: none;
+    font-weight: bold;
+}
+footer a:hover{
+    text-decoration: underline;
+    
+}
