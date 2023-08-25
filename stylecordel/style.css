@@ -1,4 +1,4 @@
-
+/*Media Queries all-devices*/
 @charset "UTF-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
@@ -10,7 +10,7 @@
     --font-main: Arial, Helvetica, sans-serif; 
     --font-paragraphy:'Dancing Script', cursive;
 }
-
+/*Media Query for mobile*/
 *{
     margin: 0px;
     padding: 0px;
@@ -48,7 +48,6 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 40px;
-    
 }
 
 section >p{
@@ -70,8 +69,7 @@ section >p{
     color: white;
     padding: 40px;
     border-radius: 10px;
-    box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.5);
-    
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.5); 
 }
 /* Set the image of idimagel00 background*/
 #image00{
