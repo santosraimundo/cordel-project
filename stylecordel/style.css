@@ -50,7 +50,6 @@ main{
     align-items: center;
 }
 section{
-    width: 100vw;
     padding-top: 10px;
     padding-bottom: 10px;
     line-height: 2em;
@@ -72,7 +71,6 @@ section >p{
 }
 .image > p{
     background-color: #000000dc;
-    display: inline-block;
     color: white;
     padding: 40px;
     border-radius: 10px;
@@ -106,7 +104,6 @@ section >p{
  
 .normal >p{
     background-color: var(--color00);
-    display: inline-block;
     border-radius: 10px;
     padding: 40px;
     color: white;
@@ -137,11 +134,11 @@ footer a:hover{
         
     }
     .image >p{
-        display: block;
         text-align: center;
         margin-right: 20px;
     }
     section{
+        width: 100vw;
         
     }
 }
