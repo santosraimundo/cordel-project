@@ -54,7 +54,7 @@ section{
     padding-top: 10px;
     padding-bottom: 10px;
     line-height: 2em;
-    margin: 5px;
+    
 }
 
 section >p{
@@ -133,9 +133,8 @@ footer a:hover{
 
     .normal >p{
         margin: auto;
-        display: block;
         text-align: center;
-        margin-right: 20px;
+        
     }
     .image >p{
         display: block;
