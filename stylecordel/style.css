@@ -43,11 +43,18 @@ header p > a{
 header a:hover{
     text-decoration: underline;
 }
+main{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
 section{
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    width: 100vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
     line-height: 2em;
-    padding-left: 40px;
+    margin: 5px;
 }
 
 section >p{
