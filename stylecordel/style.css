@@ -53,6 +53,7 @@ section{
     padding-top: 10px;
     padding-bottom: 10px;
     line-height: 2em;
+    margin: 10px;
     
 }
 
@@ -75,6 +76,7 @@ section >p{
     padding: 40px;
     border-radius: 10px;
     box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.5); 
+    margin: 10px;
 }
 /* Set the image of idimagel00 background*/
 #image00{
@@ -108,6 +110,7 @@ section >p{
     padding: 40px;
     color: white;
     box-shadow: 5px 5px 6px #00000080;
+    margin:10px;
 }
 /*set of footer*/
 footer{
