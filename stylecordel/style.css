@@ -24,12 +24,19 @@ header{
     background-image: linear-gradient(to top, var(--color00), var(--color01));
     background-attachment: fixed;
     text-align: center;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
 }
-header h1{
+header>h1{
     padding-top: 50px;
     color: white;
     font-variant: small-caps;
     font-size: 2.5em;
+    flex-basis: auto;
+
+
 }
 header p{
     padding-bottom: 50px;
@@ -54,6 +61,7 @@ section{
     padding-bottom: 10px;
     line-height: 2em;
     margin: 10px;
+    flex-basis: auto;
     
 }
 
@@ -116,13 +124,17 @@ section >p{
 footer{
     padding: 5px;
     background-color: var(--color01);
-    text-align: center;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    
 }
 footer p, a{
     color: white;
-    font-size: 0.8em;
+    font-size: 0.9em;
     text-decoration: none;
     font-weight: bold;
+    flex-basis: auto;
 }
 footer a:hover{
     text-decoration: underline;
@@ -142,6 +154,5 @@ footer a:hover{
     }
     section{
         width: 100vw;
-        
     }
 }
